@@ -1,4 +1,4 @@
-export const zodiac = [
+export const zodiacs = [
   {
     id: '1',
     name: 'aquarius',
