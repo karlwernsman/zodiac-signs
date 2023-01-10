@@ -1,6 +1,12 @@
 import React from 'react';
 import './Zodiac.css';
 
-export default function Zodiac() {
-  return <div className="zodiac"></div>;
+export default function Zodiac(props) {
+  return (
+    <div className="zodiac">
+      <img src={`zodiacs/${props.image}.png`} />
+      <h2>{props.name}</h2>
+      <p>{props.dates}</p>
+    </div>
+  );
 }
