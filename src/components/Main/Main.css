@@ -1,4 +1,26 @@
 main {
   background-size: cover;
-  height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  background-repeat: repeat;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.zodiac {
+  border: dotted 5px #ccd5ae;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1035px) {
+  main {
+    height: 100vh;
+  }
 }
